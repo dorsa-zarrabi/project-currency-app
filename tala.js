@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import currency from "./currency.js";
 import {CodeToparcham,FarsiNametala} from "./constant";
+import apiwait from './apiwait.js';
 import picios from "picios";
-
 const tala =() =>{
 	const [talas,settala] = useState([]);
 	const ApiUrl = "https://currency.jafari.li/json";
@@ -38,5 +38,4 @@ const tala =() =>{
 		</div>
 	);
 }
-
 export default tala;
