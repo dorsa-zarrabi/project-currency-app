@@ -7,11 +7,11 @@ function currency(props) { return(
 			<div ClassName="buy-sell-card">
 				<h6 ClassName="buy-card">
 					/*eleman be khater inke nare khat bad az tag span estefade shode. */
-					<span> خرید: </span> 
+					<span> فروش: </span> 
 					<b> {props.buy_curreny}</b>
 				</h6>
 				<h6 ClassName="sell-card">
-					<span> فروش: </span>
+					<span> خرید: </span>
 					<b> {props.sell_currency} </b>
 				</h6>
 			</div>
