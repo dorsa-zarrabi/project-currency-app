@@ -27,7 +27,7 @@ const tala =() =>{
 				قیمت:
 			</h4>{
 				talas.length === 0 ? (
-					<WatingApi />
+					<apiwait/>
                 ) : (talas.map((tala, index) => {return(
 						<currency index={index} buy_currency={tala.Buy} sell_currency={tala.sell} code_courency={FarsiNametala[tala.coin]} parcham_currency={CodeToparcham[tala.coin]}/>
                     )
